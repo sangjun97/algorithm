@@ -1,11 +1,8 @@
 def solution(s):
-    answer = True
+    answer = False
     if len(s)==4 or len(s)==6:
-        for i in s:
-            if i.isalpha():
-                answer=False
-                return answer
-    else:
-        answer=False
+        if s.isdigit():
+            answer=True
+            return answer
                 
     return answer
