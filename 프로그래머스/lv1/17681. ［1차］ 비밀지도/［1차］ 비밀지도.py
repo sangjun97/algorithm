@@ -5,6 +5,4 @@ def solution(n, arr1, arr2):
         a=a.replace('1','#')
         a=a.replace('0',' ')
         answer.append(a)
-    # print(a)
-    # print(b)
     return answer
